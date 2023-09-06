@@ -1,7 +1,6 @@
 # Faculty-Based-Subject-allocation-using-CSP
 This GitHub repository presents a practical solution for mapping faculty to subjects within a university setting. The project tackles the subject-faculty allocation problem using a constraint satisfaction approach, specifically a hill-climbing algorithm. By implementing local search and iteratively adjusting allocations to meet constraints, this system efficiently optimizes subject-faculty assignments. The limitation of the hill climbing approach is overcome by updating the bes solution with a probability proportional to the difference in scores. 
 
-Constraints, Domains, and Variables:
 
 Constraints: 
 
