@@ -2,11 +2,17 @@
 This GitHub repository presents a practical solution for mapping faculty to subjects within a university setting. The project tackles the subject-faculty allocation problem using a constraint satisfaction approach, specifically a hill-climbing algorithm. By implementing local search and iteratively adjusting allocations to meet constraints, this system efficiently optimizes subject-faculty assignments. The limitation of the hill climbing approach is overcome by updating the bes solution with a probability proportional to the difference in scores. 
 
 Constraints, Domains, and Variables:
+
 Constraints: 
+
 Availability_constraint: Checks that the selected faculty member is available to teach the subject
+
 Workload_constraint:  Checks that the faculty member has not reached their maximum number of classes
+
 Conflict_constraint: Checks that the faculty member is not already teaching a subject that conflicts with the current subject. 
+
 Domain:  Subject names: Subject1, Subject2, Subject3
+
 Variables: Faculty names: Faculty1, Faculty2, Faculty3
 
 Key Features:
